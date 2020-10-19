@@ -1,0 +1,30 @@
+/* INFO:
+Made with every help source out there
+Color Pallet: 
+https://colorhunt.co/palette/207331
+Inspiration
+http://www.highvoltagetattoo.com/#artists-front
+*/
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;   
+    background-repeat: repeat;
+}
+#container {
+    margin: 0; /* Do I need/should i specify padding and margin on every class/id/style change i make? */
+    padding: 0;
+
+}
+#header { 
+    background-color: #5B574E;
+    background: rgba(255, 255, b255lue, 0.6);
+
+    align-content: center;
+     /* Make it transparent so you can see the background */
+}
+#welcome {
+    text-align: center;
+}
+#nav {
+    text-align: center;
+}

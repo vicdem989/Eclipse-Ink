@@ -5,26 +5,78 @@ https://colorhunt.co/palette/207331
 Inspiration
 http://www.highvoltagetattoo.com/#artists-front
 */
+
 body {
     background-image: url(../img/bg.jpg);
-    background-size: cover;   
-    background-repeat: repeat;
+    background-size: cover; 
+    background-position: relative;
+    background-repeat: no-repeat;
+    color: #8C8071;
 }
+
+
+
 #container {
     margin: 0; /* Do I need/should i specify padding and margin on every class/id/style change i make? */
     padding: 0;
 
 }
-#header { 
-    background-color: #5B574E;
-    background: rgba(255, 255, b255lue, 0.6);
 
+#header { 
+    width: 100%;
+    background-color: #5B574E;
+    background: rgba(0, 0, 0, 0.25); /* Makes the background transparent */
     align-content: center;
-     /* Make it transparent so you can see the background */
 }
+
 #welcome {
+    padding-top: 1px;
+    padding-bottom: -5px;
+    margin-bottom: -25px;
     text-align: center;
 }
-#nav {
+
+li, a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #8C8071;
+    color: 
+}
+
+nav {
+    margin-left: 585px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10%;
+}
+
+.nav__links {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.5s ease 0s;
+}
+.nav__links li a:hover {
+    color: #FFE8CE;
+}
+#about {
+    margin-top: 50px;
     text-align: center;
+    background-color: #5B574E;
+    background: rgba(0, 0, 0, 0.25);
+}
+#about:hover {
+    filter:blur(5px); 
+    /* https://codepen.io/craigocurtis/pen/KzXYad
+    https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css
+    Add so the text "box" is dark and when its hovered over its easy to read. 
+    Or make the background blurry when the "box" is hovered over
 }

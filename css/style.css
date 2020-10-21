@@ -44,7 +44,7 @@ li, a {
 }
 
 nav {
-    margin-left: 585px;
+    margin-left: 375px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,13 +68,23 @@ nav {
     color: #FFE8CE;
 }
 #about {
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
     background-color: #5B574E;
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: 435px;
+    width: 500px;
 }
 #about:hover {
-    filter:blur(5px); 
+    font-size: 25px;
+    text-shadow: 0.5px 0px 0px white;
+    width: 700px;
+    margin-left: 340px;
+    box-shadow: 0px 0px 8px black;
+    transition: all 0.5s ease 0s;
+}
+/*#about:hover {
+    filter:blur(5px); */
     /* https://codepen.io/craigocurtis/pen/KzXYad
     https://stackoverflow.com/questions/23208200/how-to-darken-a-background-using-css
     Add so the text "box" is dark and when its hovered over its easy to read. 
